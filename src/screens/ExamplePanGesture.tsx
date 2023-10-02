@@ -24,11 +24,11 @@ export function ExamplePanGesture() {
     onEnd(event, context) {
       translateX.value = withDecay({
         velocity: event.velocityX,
-        clamp: [0, 300],
+        clamp: [0, 1000],
       });
       translateY.value = withDecay({
         velocity: event.velocityY,
-        clamp: [0, 400],
+        clamp: [0, 1000],
       });
     },
   });
