@@ -7,6 +7,7 @@ const navigation = [
   { label: '▶ Pan Gesture', link: ROUTES.panGesture },
   { label: '▶ Transitions', link: ROUTES.transitions },
   { label: '▶ Timing', link: ROUTES.bubbleLoader },
+  { label: '▶ Swiping', link: ROUTES.swiping },
 ];
 
 export function HomeScreen() {
