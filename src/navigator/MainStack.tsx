@@ -6,6 +6,7 @@ import { HomeScreen } from '../screens/HomeScreen';
 import { ExampleTransitions } from '../screens/ExampleTransitions';
 import { ExampleBubbleLoader } from '../screens/ExampleBubbleLoader';
 import { ExampleSwiping } from '../screens/ExampleSwiping';
+import { ExampleDragToSort } from '../screens/ExampleDragToSort';
 
 const Stack = createNativeStackNavigator();
 
@@ -31,6 +32,11 @@ export const MainStack = () => {
       <Stack.Screen
         name={ROUTES.swiping}
         component={ExampleSwiping}
+        options={{ title: 'Swiping' }}
+      />
+      <Stack.Screen
+        name={ROUTES.dragToSort}
+        component={ExampleDragToSort}
         options={{ title: 'Swiping' }}
       />
     </Stack.Navigator>

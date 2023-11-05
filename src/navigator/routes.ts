@@ -4,4 +4,5 @@ export const ROUTES = {
   transitions: 'transitions',
   bubbleLoader: 'bubbleLoader',
   swiping: 'swiping',
+  dragToSort: 'dragToSort',
 } as const;

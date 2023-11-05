@@ -8,6 +8,7 @@ const navigation = [
   { label: '▶ Transitions', link: ROUTES.transitions },
   { label: '▶ Timing', link: ROUTES.bubbleLoader },
   { label: '▶ Swiping', link: ROUTES.swiping },
+  { label: '▶ Drag to sort', link: ROUTES.dragToSort },
 ];
 
 export function HomeScreen() {

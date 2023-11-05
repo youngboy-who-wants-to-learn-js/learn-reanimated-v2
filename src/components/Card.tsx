@@ -4,12 +4,14 @@ import { CARD_IMAGES } from '../constants/cardImage';
 
 interface CardProps {
   src?: string;
+  style?: any;
 }
 
-export function Card({ src = CARD_IMAGES.first }: CardProps) {
+export function Card({ src = CARD_IMAGES.first, style }: CardProps) {
   return (
     <Image
-      style={styles.image}
+      contentFit="cover"
+      style={[styles.image, style]}
       source={{
         uri: src,
       }}
