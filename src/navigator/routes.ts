@@ -5,4 +5,5 @@ export const ROUTES = {
   bubbleLoader: 'bubbleLoader',
   swiping: 'swiping',
   dragToSort: 'dragToSort',
+  heart: 'heart',
 } as const;
